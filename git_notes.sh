@@ -38,6 +38,7 @@ git branch -a
 git push origin --delete <branch_to_delete>  # deletes the branch on 
 
 # Pushing Master to Remote
+git remote add origin https://github.com/BrianMillerS/BLASTp_to_GO_annotaions.git  # tells git the online location of origin
 git pull origin master  # checks and updates the branch before you add to it
 git push <url to push to> master  # pushes the changes
 
