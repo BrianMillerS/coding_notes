@@ -26,3 +26,11 @@ tmux attach  # attaches you back to the session
 # copy a file using scp
 scp /path/to/file username@a:/path/to/destination
 scp /path/to/file brian@140.160.205.6:~/Desktop
+
+
+
+mille453
+1!Pickle
+
+ssh://pollardlab@140.160.89.237
+30Degrees!
