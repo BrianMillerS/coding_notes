@@ -35,7 +35,10 @@ parser=argparse.ArgumentParser(description="program that replaces fasta headers"
 parser.add_argument("-i", help="input fasta", type=file)
 parser.add_argument("-o", help="output fasta")
 args = parser.parse_args()
-print("output file: {}".format(args.o)) 
+print("output file: {}".format(args.o))
+## USAGE ##
+# ./rename_fa_headers.py -i input.fa -l lookup_table.txt -o output.fa
+
 
 # OTHER RANDOM THINGS
 def bash_cmd(command):
