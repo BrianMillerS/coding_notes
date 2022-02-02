@@ -33,3 +33,9 @@ df['Date'].min()
 df['Date'].max()
 filt = (df['Date'] >= pd.to_datetime('2019-01-01'))
 df.loc[filt]
+
+
+# dataframe resampleing (aggregation)
+df.resample('W').agg({'Close': 'mean', 'High': 'max', 'Low': 'min', 'Volume': 'sum'})
+# the index was already set to datetime (df.set_index('Date'))
+# returns a new df with the weekly: mean close, max high, min low, and total volume
