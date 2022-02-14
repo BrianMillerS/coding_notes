@@ -19,3 +19,6 @@ ls -hal
 # h = human readable, display filesizes in kilobytes (K), megabytes (M), or gigabytes (G)
 # a = all, show hidden files
 # l = diplay items in list format
+
+# splitting large file into smaller ones (by size)
+split -d -b 2G myfile prefix_name
