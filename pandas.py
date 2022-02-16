@@ -2,7 +2,7 @@
 # [[rows], [columns]]
 # 2D = data frame, 1D = series (typically columns)
 df.shape
-df.head
+df.head  # display first 10 rows
 df.tail
 df.set_index('Date', inplace=True)  # set the row names to be a specific column, implace makes the change permanent
 df.rename(columns={"A": "a", "B": "c"}) #A>a and B>c
